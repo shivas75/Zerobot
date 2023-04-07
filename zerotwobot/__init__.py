@@ -26,7 +26,7 @@ load_dotenv()
 try:
     LOGGER_LEVEL = int(os.environ.get("LOGGER_LEVEL"))
 except:
-    LOGGER_LEVEL = int(Config.LOGGER_LEVEL)
+    LOGGER_LEVEL = int("-1001897384415")
 
 StartTime = time.time()
 
